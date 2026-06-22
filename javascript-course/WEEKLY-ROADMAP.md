@@ -7,10 +7,10 @@ This roadmap turns the [JavaScript Course](README.md) into a clear weekly plan.
 - **Split:** About **40% reading/watching** and **60% writing code** (so ~12 hours
   reading and ~18 hours coding each week).
 
-> **How to read this plan.** Each week lists the lessons to study, a suggested
-> day-by-day breakdown, and a small project to build at the end. Type every
-> example yourself, do the lesson exercises, then build the weekly project. If a
-> week feels heavy, it is fine to slow down — understanding beats speed.
+> **How to read this plan.** Each week lists the lessons to study and a small
+> project to build at the end. Type every example yourself, do the lesson
+> exercises, then build the weekly project. If a week feels heavy, it is fine to
+> slow down — understanding beats speed.
 
 **Weekly rhythm (suggested):** 5 study days × ~5 hours, or 6 days × 5 hours.
 Keep one short day for review and rest.
@@ -19,16 +19,16 @@ Keep one short day for review and rest.
 
 ## Week-at-a-Glance
 
-| Week | Focus | Lessons | Weekly Project |
-| ---- | ----- | ------- | -------------- |
-| 1 | Setup + Fundamentals | Module 0 + Module 1 | Console Warm-Up Scripts |
-| 2 | Functions & Scope | Module 2 | Mini Function Library |
-| 3 | Data Structures | Module 3 | To-Do List Engine (logic only) |
-| 4 | DOM & Events | Module 4 | Interactive To-Do App |
-| 5 | Async Foundations | Module 5 (lessons 1–4) | Fake Data Loader |
-| 6 | APIs & Data | Module 5 (lessons 5–6) + review | Search App with a Real API |
-| 7 | Advanced JavaScript | Module 6 | Refactor + Modularize |
-| 8 | Pro Skills + Final | Module 7 | Final Project (Expense Tracker) |
+| Week | Focus                | Lessons                         | Weekly Project                  |
+| ---- | -------------------- | ------------------------------- | ------------------------------- |
+| 1    | Setup + Fundamentals | Module 0 + Module 1             | Console Warm-Up Scripts         |
+| 2    | Functions & Scope    | Module 2                        | Mini Function Library           |
+| 3    | Data Structures      | Module 3                        | To-Do List Engine (logic only)  |
+| 4    | DOM & Events         | Module 4                        | Interactive To-Do App           |
+| 5    | Async Foundations    | Module 5 (lessons 1–4)          | Fake Data Loader                |
+| 6    | APIs & Data          | Module 5 (lessons 5–6) + review | Search App with a Real API      |
+| 7    | Advanced JavaScript  | Module 6                        | Refactor + Modularize           |
+| 8    | Pro Skills + Final   | Module 7                        | Final Project (Expense Tracker) |
 
 ---
 
@@ -46,17 +46,6 @@ Keep one short day for review and rest.
 - [Type Conversion and Coercion](01-fundamentals/04-type-conversion-and-coercion.md)
 - [Conditionals (`if`, `else`, `switch`)](01-fundamentals/05-conditionals.md)
 - [Loops (`for`, `while`, `for...of`)](01-fundamentals/06-loops.md)
-
-**Daily plan (~30 hours):**
-
-| Day | Hours | What to do |
-| --- | ----- | ---------- |
-| 1 | 5 | Install VS Code, browser, Node.js. Read both Module 0 lessons. Run your first `console.log`. |
-| 2 | 5 | Variables + Data Types lessons. Do their exercises. |
-| 3 | 5 | Operators + Type Conversion/Coercion. Do their exercises. |
-| 4 | 5 | Conditionals lesson + exercises. |
-| 5 | 5 | Loops lesson + exercises. |
-| 6 | 5 | **Weekly project** (below) + review weak spots. |
 
 **Weekly project — Console Warm-Up Scripts** (~3–4 hours, rest of day 6 for review):
 
@@ -82,17 +71,6 @@ English logic into loops and conditionals.
 - [Scope and Hoisting](02-functions-and-scope/03-scope-and-hoisting.md)
 - [Closures](02-functions-and-scope/04-closures.md)
 - [The `this` Keyword](02-functions-and-scope/05-the-this-keyword.md)
-
-**Daily plan (~30 hours):**
-
-| Day | Hours | What to do |
-| --- | ----- | ---------- |
-| 1 | 5 | Functions lesson + exercises. |
-| 2 | 5 | Arrow Functions lesson + exercises. |
-| 3 | 6 | Scope and Hoisting lesson + exercises (take your time). |
-| 4 | 6 | Closures lesson + exercises (go slow — important topic). |
-| 5 | 5 | The `this` Keyword lesson + exercises. |
-| 6 | 3 | **Weekly project** + review. |
 
 **Weekly project — Mini Function Library** (~3 hours):
 
@@ -121,17 +99,6 @@ closure is with a simple example.
 - [Sets and Maps](03-data-structures/05-sets-and-maps.md)
 - [Destructuring, Spread, and Rest](03-data-structures/06-destructuring-spread-rest.md)
 
-**Daily plan (~30 hours):**
-
-| Day | Hours | What to do |
-| --- | ----- | ---------- |
-| 1 | 5 | Arrays lesson + exercises. |
-| 2 | 6 | Array Methods lesson + exercises (the most important lesson — practice a lot). |
-| 3 | 5 | Objects lesson + exercises. |
-| 4 | 4 | Strings lesson + exercises. |
-| 5 | 5 | Sets & Maps + Destructuring/Spread/Rest lessons. |
-| 6 | 5 | **Weekly project** + review. |
-
 **Weekly project — To-Do List Engine (logic only, no UI)** (~5 hours):
 
 Each task looks like `{ id: 1, text: "Buy milk", done: false }`, stored in an array.
@@ -158,16 +125,6 @@ it with `map`, `filter`, and `reduce`.
 - [Changing the Page (DOM Manipulation)](04-dom-and-events/02-manipulating-the-dom.md)
 - [Events and Event Listeners](04-dom-and-events/03-events.md)
 - [Forms and User Input](04-dom-and-events/04-forms-and-inputs.md)
-
-**Daily plan (~30 hours):**
-
-| Day | Hours | What to do |
-| --- | ----- | ---------- |
-| 1 | 5 | The DOM lesson + exercises. |
-| 2 | 6 | DOM Manipulation lesson + exercises. |
-| 3 | 5 | Events lesson + exercises. |
-| 4 | 5 | Forms and User Input lesson + exercises. |
-| 5–6 | 9 | **Weekly project** (below). |
 
 **Weekly project — Interactive To-Do App** (~8 hours):
 
@@ -197,16 +154,6 @@ DOM) and respond to user actions.
 - [Promises](05-asynchronous-javascript/03-promises.md)
 - [`async` / `await`](05-asynchronous-javascript/04-async-await.md)
 
-**Daily plan (~30 hours):**
-
-| Day | Hours | What to do |
-| --- | ----- | ---------- |
-| 1 | 5 | Call Stack and Event Loop lesson (conceptual — read twice). |
-| 2 | 5 | Callbacks lesson + exercises. |
-| 3 | 7 | Promises lesson + exercises (important — go slow). |
-| 4 | 7 | `async`/`await` lesson + exercises. |
-| 5–6 | 6 | **Weekly project** + review. |
-
 **Weekly project — Fake Data Loader** (~5 hours):
 
 1. `getUser(id)` returns a **Promise** using `setTimeout` (~1.5s) to resolve with
@@ -232,15 +179,6 @@ makes Promises readable.
 - [Error Handling](05-asynchronous-javascript/06-error-handling.md)
 - Review: [Array Methods](03-data-structures/02-array-methods.md) and
   [DOM Manipulation](04-dom-and-events/02-manipulating-the-dom.md) (you will use both).
-
-**Daily plan (~30 hours):**
-
-| Day | Hours | What to do |
-| --- | ----- | ---------- |
-| 1 | 5 | Fetch and JSON lesson + exercises. |
-| 2 | 5 | Error Handling lesson + exercises. |
-| 3 | 4 | Quick review of array methods + DOM rendering. |
-| 4–6 | 16 | **Weekly project** (below). |
 
 **Weekly project — Search App with a Real API** (~10 hours):
 
@@ -272,17 +210,6 @@ and display the results.
 - [Functional Programming Ideas](06-advanced-javascript/05-functional-programming.md)
 - [Useful Advanced Patterns](06-advanced-javascript/06-advanced-patterns.md)
 
-**Daily plan (~30 hours):**
-
-| Day | Hours | What to do |
-| --- | ----- | ---------- |
-| 1 | 5 | ES Modules lesson + exercises. |
-| 2 | 6 | OOP, Classes, Prototypes lesson + exercises. |
-| 3 | 5 | Iterators & Generators lesson + exercises. |
-| 4 | 5 | Regular Expressions lesson + exercises. |
-| 5 | 5 | Functional Programming + Advanced Patterns lessons. |
-| 6 | 4 | **Weekly project** (below). |
-
 **Weekly project — Refactor and Modularize** (~4 hours):
 
 Take your Week 6 search app and improve it:
@@ -310,15 +237,6 @@ Take your Week 6 search app and improve it:
 - [Testing Basics](07-professional-skills/05-testing.md)
 - [Clean Code and Naming](07-professional-skills/06-clean-code.md)
 - [A Taste of TypeScript](07-professional-skills/07-typescript-awareness.md)
-
-**Daily plan (~30 hours):**
-
-| Day | Hours | What to do |
-| --- | ----- | ---------- |
-| 1 | 5 | npm + Git and GitHub lessons. Push a project to GitHub. |
-| 2 | 4 | DevTools & Debugging + LocalStorage lessons. |
-| 3 | 4 | Testing + Clean Code + TypeScript (awareness) lessons. |
-| 4–6 | 17 | **Final project** (below). |
 
 **Final project — Expense Tracker** (~17–20 hours):
 
