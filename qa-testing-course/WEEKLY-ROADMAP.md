@@ -1,175 +1,155 @@
-# QA Testing Course — 6-Week Weekly Roadmap (10 hours/week)
+# QA Testing Course — 4-Week Intensive Roadmap (~20 hours/week)
 
-This roadmap turns the [QA Testing Course](README.md) into a clear weekly plan.
+This roadmap turns the [QA Testing Course](README.md) into a fast, **4-week
+intensive** — a bootcamp-style sprint for finishing the whole course in a month.
 
-- **Time budget:** 10 hours per week
-- **Total length:** 6 weeks (~60 hours)
-- **Split:** About **40% reading** and **60% hands-on** — practicing on real apps,
-  writing test cases, and finding bugs.
+- **Time budget:** about 20 hours per week (a near-full-time commitment)
+- **Total length:** 4 weeks (~80 hours)
+- **Split:** About **30% reading** and **70% hands-on** — at this pace you read a
+  module and immediately practice it on a real app the same day.
 
-> **How to read this plan.** Each week lists the lessons to study and a hands-on
-> project. Pick a real app you use (a shop, a to-do app, a booking site) and test it
-> as you learn — you'll find real bugs, which is exactly the point. Save your best
-> work in a `qa-portfolio` folder; by Week 6 it becomes your job-hunting portfolio.
+> **How to read this plan.** Each week covers a big chunk of the course plus a
+> hands-on project that ties it together. Pick **one real app** at the start (a shop,
+> a to-do app, a booking site) and test it all month — by Week 4 it becomes your
+> capstone. Save every artifact in a `qa-portfolio` folder; it's your job-hunting
+> portfolio by the end.
 
-**Weekly rhythm (suggested):** 4–5 short sessions of ~2 hours. Consistent practice
-beats marathons — testing is a skill that grows by *doing*.
+**Weekly rhythm (suggested):** ~4 hours a day, 5 days a week (or spread across 6–7
+lighter days). Read in the morning, practice in the afternoon — the intensity is the
+point: concepts stick when you apply them immediately.
+
+> ⚠️ **This is an aggressive pace.** If 20 hours/week isn't realistic, use the gentler
+> plans instead — the same content also maps to a 6-week (~10 hrs/week) or 4-month
+> (~5 hrs/week) schedule.
 
 ---
 
 ## Week-at-a-Glance
 
-| Week | Focus                          | Lessons             | Weekly Project                              |
-| ---- | ------------------------------ | ------------------- | ------------------------------------------- |
-| 1    | Mindset + Fundamentals         | Module 0 + Module 1 | Test-Concept Notes + First Bug Hunt         |
-| 2    | Types of Testing               | Module 2            | Classify & Run Tests on a Real App          |
-| 3    | Test Design & Documentation    | Module 3            | Write Test Cases + a Traceability Matrix    |
-| 4    | Defect Management              | Module 4            | A Polished Bug Report Pack                  |
-| 5    | Tools & Process                | Module 5            | Set Up Jira/Postman + Cross-Browser Testing |
-| 6    | Mastery + Final Project        | Module 6            | Full End-to-End QA of a Real App            |
+| Week | Theme                              | Modules            | Milestone                                   |
+| ---- | ---------------------------------- | ------------------ | ------------------------------------------- |
+| 1    | Foundations + Types of Testing     | Module 0, 1, 2     | Tester's mindset + first bug log            |
+| 2    | Test Design & Documentation        | Module 3           | A full test suite + test plan + RTM         |
+| 3    | Defects, Tools & Process           | Module 4, 5        | Bug-report pack in a real tracker           |
+| 4    | Mastery + Final Project            | Module 6           | End-to-end QA capstone + portfolio          |
 
 ---
 
-## Week 1 — Mindset and Fundamentals
+## Week 1 — Foundations and Types of Testing
 
-**Goal:** Understand what QA is and absorb the core vocabulary every tester needs.
+**Goal:** Absorb the mindset, the core vocabulary, and every major kind of testing —
+then start finding real bugs immediately.
 
-**Study:**
+**Study (read across the week):**
 
 - Module 0 — [What Is QA](00-getting-started/01-what-is-qa.md),
   [The Tester's Mindset](00-getting-started/02-the-testers-mindset.md)
-- Module 1 — all five lessons (SDLC, STLC, verification vs validation, the seven
-  principles, levels of testing)
-
-**Practice / Project:**
-
-- Keep a one-page **cheat sheet** in your own words: QA vs QC, verification vs
-  validation, the seven principles, the STLC phases.
-- **First bug hunt:** pick any app and spend an hour just *using it like a curious
-  tester* — go off the happy path. Write down every odd thing you notice (no formal
-  report yet).
-
-**By the end of the week you can:** explain what QA is, where it fits in the SDLC,
-and the fundamental principles — and you've started looking at software with a
-tester's eyes.
-
----
-
-## Week 2 — Types of Testing
-
-**Goal:** Know the major kinds of testing and when each applies.
-
-**Study:**
-
+- Module 1 — [SDLC](01-testing-fundamentals/01-sdlc-and-where-qa-fits.md),
+  [STLC](01-testing-fundamentals/02-stlc.md),
+  [Verification vs Validation](01-testing-fundamentals/03-verification-vs-validation.md),
+  [The Seven Principles](01-testing-fundamentals/04-principles-of-testing.md),
+  [Levels of Testing](01-testing-fundamentals/05-levels-of-testing.md)
 - Module 2 — all six lessons (functional, non-functional, regression/retesting,
   smoke/sanity, exploratory/ad-hoc, black/grey/white box)
 
 **Practice / Project:**
 
-- On your chosen app, do a quick **smoke test** of the critical paths.
-- Run a **functional test** of one feature (write input → action → expected result).
-- Run a 30-minute **exploratory session** with a written charter; keep notes.
-- For five things you tested, label each: functional or non-functional? black or
-  grey box?
+- Build a one-page **cheat sheet**: QA vs QC, verification vs validation, the seven
+  principles, the STLC phases, the testing levels.
+- Choose your app for the month. Run a **smoke test** of its critical paths, then a
+  **functional test** of one feature (input → action → expected result).
+- Run two 30-minute **exploratory sessions** with written charters.
+- Start a **bug log** spreadsheet of everything you find.
 
-**By the end of the week you can:** identify and perform the main testing types, and
-explain how they differ (great interview material).
+**By the end of the week you can:** explain core QA concepts and perform the main
+testing types — and you have a running bug log.
 
 ---
 
-## Week 3 — Test Design and Documentation
+## Week 2 — Test Design and Documentation
 
-**Goal:** Write the documents testers live by, using proper design techniques.
+**Goal:** Learn to design and document tests properly, and produce your first
+professional test suite.
 
 **Study:**
 
-- Module 3 — all five lessons (scenarios vs cases, writing test cases, design
-  techniques, test plans, RTM)
+- Module 3 — [Scenarios vs Cases](03-test-design-and-documentation/01-test-scenarios-vs-cases.md),
+  [Writing Good Test Cases](03-test-design-and-documentation/02-writing-test-cases.md),
+  [Design Techniques](03-test-design-and-documentation/03-test-design-techniques.md),
+  [Test Plans](03-test-design-and-documentation/04-test-plans.md),
+  [Traceability Matrix](03-test-design-and-documentation/05-traceability-matrix.md)
 
 **Practice / Project:**
 
-- Choose one feature of your app. Write **4–6 test scenarios**, then expand them into
-  **10–15 detailed test cases** (with the standard fields).
-- Apply **design techniques**: use equivalence partitioning + boundary values on an
-  input field, and build a **decision table** for a rule-based feature.
-- Build a small **Requirements Traceability Matrix** linking requirements to your
-  cases. Confirm every requirement has at least one test.
+- Write **4–6 test scenarios** for your app, then expand them into **20–25 detailed
+  test cases** (with the standard fields).
+- Apply the **design techniques**: equivalence partitioning + boundary values on an
+  input field, and a **decision table** for a rule-based feature.
+- Draft a one-page **test plan** (objective, scope in/out, approach, risks).
+- Build a **Requirements Traceability Matrix** linking requirements to cases —
+  confirm nothing is untested.
 
-**By the end of the week you can:** turn requirements into well-designed, traceable
-test cases — the daily core skill of manual QA.
+**By the end of the week you can:** turn requirements into a well-designed, traceable
+test suite — and you have a test plan + RTM for your portfolio.
 
 ---
 
-## Week 4 — Defect Management
+## Week 3 — Defects, Tools, and Process
 
-**Goal:** Find, report, and classify bugs like a professional.
+**Goal:** Report and track bugs like a professional, and get hands-on with the tools
+and processes used in real QA jobs.
 
 **Study:**
 
-- Module 4 — all four lessons (defect life cycle, bug reports, severity vs priority,
-  working with developers)
+- Module 4 — [Defect Life Cycle](04-defect-management/01-defect-life-cycle.md),
+  [Bug Reports](04-defect-management/02-writing-bug-reports.md),
+  [Severity vs Priority](04-defect-management/03-severity-vs-priority.md),
+  [Working with Developers](04-defect-management/04-working-with-developers.md)
+- Module 5 — [Test Management Tools](05-tools-and-process/01-test-management-tools.md),
+  [Agile/Scrum](05-tools-and-process/02-agile-testing-and-scrum.md),
+  [API Testing Basics](05-tools-and-process/03-api-testing-basics.md),
+  [Cross-Browser & Mobile](05-tools-and-process/04-cross-browser-and-mobile.md),
+  [Intro to Automation](05-tools-and-process/05-intro-to-automation.md)
 
 **Practice / Project:**
 
-- Execute the test cases you wrote in Week 3. Mark each **Pass / Fail / Blocked**.
-- For every failure (and any bug from your exploration), write a **complete bug
-  report** using the template: title, steps, expected vs actual, environment,
-  **severity + priority**, and a **screenshot**.
-- Produce a **bug report pack** of 5+ real, polished reports. Practice setting
-  severity and priority — including one case where they differ.
+- Execute your Week 2 test cases (**Pass / Fail / Blocked**). For every failure, write
+  a **complete bug report** with **severity + priority** and a screenshot.
+- Produce a **bug-report pack** of 5+ polished reports — include one case where
+  severity and priority differ.
+- Recreate three reports as tickets in **free Jira** and move them across a board.
+- Send a few **Postman** API requests (valid + invalid) and do a **cross-browser +
+  responsive** check of one page.
 
-**By the end of the week you can:** write reproducible bug reports developers
-respect, and classify defects correctly. These reports go straight into your
-portfolio.
-
----
-
-## Week 5 — Tools and Process
-
-**Goal:** Get comfortable with the tools and team processes used in real QA jobs.
-
-**Study:**
-
-- Module 5 — all five lessons (test management & bug tracking tools, Agile/Scrum, API
-  testing basics, cross-browser & mobile, intro to automation)
-
-**Practice / Project:**
-
-- Sign up for a **free Jira** account; recreate three of your Week 4 bug reports as
-  tickets and move them across a board.
-- Install **Postman** and run a few **API requests** against any free public API
-  (send valid and invalid requests; read the status codes).
-- Do a **cross-browser + responsive** check of one page: test it in two browsers and
-  at a phone screen size (use DevTools device mode). Screenshot any issues.
-
-**By the end of the week you can:** use a bug tracker, do basic API testing, test
-across browsers/devices, and explain where QA fits in Agile/Scrum.
+**By the end of the week you can:** report and classify defects professionally, and
+use a tracker, Postman, and cross-browser tools.
 
 ---
 
-## Week 6 — Mastery and Final Project
+## Week 4 — Mastery and Final Project
 
-**Goal:** Turn your skills into a portfolio and complete a full QA cycle.
+**Goal:** Turn your skills into a portfolio, prep for interviews, and complete a full
+end-to-end QA cycle as your capstone.
 
 **Study:**
 
-- Module 6 — all four lessons (portfolio, interview prep, career paths, final
-  project)
+- Module 6 — [Building a QA Portfolio](06-mastery/01-building-a-qa-portfolio.md),
+  [Interview Preparation](06-mastery/02-interview-preparation.md),
+  [Career Paths](06-mastery/03-career-paths-and-certifications.md),
+  [Final Project](06-mastery/04-final-project.md)
 
 **Practice / Project — the capstone:**
 
 - Complete the [Final Project](06-mastery/04-final-project.md): run a **full manual
-  QA cycle** on a real app, producing every artifact — test plan, scenarios, test
-  cases, RTM, executed results, bug reports, exploratory notes, cross-browser checks,
-  and a **test summary report** with a ship / don't-ship recommendation.
+  QA cycle** on your app — test plan, scenarios, **15–25 test cases**, RTM, executed
+  results, bug reports, an exploratory session, cross-browser checks, and a **test
+  summary report** with a ship / don't-ship recommendation.
 - Organize everything into a `qa-portfolio` folder (ideally on **GitHub** — use the
   repo's [Git course](../git-course/) if you need a refresher).
-- Do a mock interview: answer the common questions from the
-  [interview lesson](06-mastery/02-interview-preparation.md) out loud, including
-  "how would you test a ___?"
+- Do a **mock interview** out loud, including "how would you test a ___?"
 
-**By the end of the week you can:** demonstrate the entire manual QA process with
-real artifacts, talk confidently in an interview, and know your next career step.
+**By the end of the week you can:** demonstrate the entire manual QA process with real
+artifacts, talk confidently in an interview, and know your next career step.
 
 ---
 
