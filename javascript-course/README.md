@@ -8,9 +8,9 @@ Every lesson is written in **simple, easy English**. You do not need any prior
 programming knowledge to start. Just go in order, type out the examples yourself,
 and do the exercises.
 
-> This course is the deep-dive companion to the
-> [JavaScript Learning Roadmap](../Javascript%20learning%20roadmap.md). The roadmap
-> tells you *what* to learn and *when*; this course teaches you the *how* in detail.
+> **In a hurry, or want a schedule?** Follow the
+> [8-Week Weekly Roadmap (30 hours/week)](WEEKLY-ROADMAP.md). It tells you *what*
+> to study *when*; this course teaches you the *how* in detail.
 
 ---
 
@@ -23,6 +23,13 @@ and do the exercises.
 5. **Read error messages.** They are hints, not punishment.
 
 **Suggested pace:** Spend about 40% of your time reading and 60% writing code.
+
+---
+
+## Study Schedule
+
+📅 **[8-Week Weekly Roadmap (30 hours/week)](WEEKLY-ROADMAP.md)** — a day-by-day
+plan that maps every lesson below into 8 weeks, with weekly projects.
 
 ---
 
