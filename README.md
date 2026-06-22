@@ -23,6 +23,14 @@ recovering from mistakes, and keeping a clean history.
 - **7 modules · 31 lessons** · [6-week roadmap](git-course/WEEKLY-ROADMAP.md) (10 hrs/week)
 - **Start here if:** you're new to coding or version control.
 
+### 🎨 [HTML & CSS Course — From Basics to Job-Ready](html-css-course/README.md)
+
+The two languages every website is built from. HTML gives a page its structure and
+CSS gives it style and layout — from your first page to responsive, polished sites.
+
+- **7 modules · 32 lessons** · [2-week intensive roadmap](html-css-course/WEEKLY-ROADMAP.md) (36 hrs/week)
+- **Start here if:** you want to build for the web and have never written code.
+
 ### 🟨 [JavaScript Course — From Basics to Advanced](javascript-course/README.md)
 
 The language of the web, from variables and functions to async, modules, and modern
@@ -64,7 +72,7 @@ Not sure where to start? Pick the path that matches your goal.
 **🧑‍💻 Become a web developer**
 
 ```text
-Git  →  JavaScript  →  Next.js  →  Advanced Next.js
+Git  →  HTML & CSS  →  JavaScript  →  Next.js  →  Advanced Next.js
 ```
 
 **🔍 Get into QA / software testing**
@@ -76,7 +84,7 @@ QA Testing  →  Git  →  (optional) JavaScript → automation
 **🧰 Just want the essentials every developer needs**
 
 ```text
-Git  →  JavaScript
+Git  →  HTML & CSS  →  JavaScript
 ```
 
 ---
